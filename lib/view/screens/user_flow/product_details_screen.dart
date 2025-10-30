@@ -43,7 +43,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
         elevation: 0,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.black),
-          onPressed: () => context.pop(),
+          onPressed: () => context.go(RoutePath.home),
         ),
         title: const Text(
           'Product Details',
@@ -297,11 +297,14 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
 
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
-                  child: Image.asset(
-                    'assets/images/statue_liberty.png',
-                    width: double.infinity,
-                    height: 137,
-                    fit: BoxFit.contain,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(12),
+                    child: Image.asset(
+                      'assets/images/american_flag_banner.png',
+                      width: double.infinity,
+                      height: 300,
+                      fit: BoxFit.cover,
+                    ),
                   ),
                 ),
 
@@ -475,7 +478,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
         ],
       ),
       bottomNavigationBar: Container(
-        padding: const EdgeInsets.all(16),
+        padding: const EdgeInsets.all(26),
         decoration: const BoxDecoration(
           color: Colors.white,
           boxShadow: [

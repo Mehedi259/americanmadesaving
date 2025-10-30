@@ -131,24 +131,21 @@ class _HomeScreenState extends State<HomeScreen> {
                   ],
                 ),
               ),
-
+              const SizedBox(height: 20),
               // Banner
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 0),
-                child: Container(
-                  width: double.infinity,
-                  height: 200,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(16),
-                    image: const DecorationImage(
-                      image: AssetImage(
-                          'assets/images/american_flag_banner.png'),
-                      fit: BoxFit.contain,
-                    ),
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(12),
+                  child: Image.asset(
+                    'assets/images/american_flag_banner.png',
+                    width: double.infinity,
+                    height: 300,
+                    fit: BoxFit.cover,
                   ),
                 ),
               ),
-
+              const SizedBox(height: 20),
               // Categories
               const Padding(
                 padding: EdgeInsets.symmetric(horizontal: 16),
@@ -468,7 +465,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       child: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
