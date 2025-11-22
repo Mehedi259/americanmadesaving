@@ -1,16 +1,51 @@
-# americanmadesaving
+# 🛒 American Made Saving  
+A Flutter-based eCommerce affiliate app for discovering and promoting **American-made** and **tariff-free** products.
 
-A new Flutter project.
+American Made Saving helps users find authentic US-made products while highlighting items that are **tariff-free**, making shopping smarter and more cost-effective.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+### 🇺🇸 American-Made Product Listings
+- Curated list of products manufactured in the USA  
+- Verified brand details  
+- Category-based browsing
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 💸 Tariff-Free Product Indicator
+- Special labels showing tariff-free items  
+- Helps users make cost-saving decisions
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🤝 Affiliate Integration
+- Redirect users to partner stores  
+- Generates affiliate-based revenue  
+- Click & referral tracking
+
+### 🔍 Search & Filter
+- Search by name, brand, or category  
+- Filter by price, category, and tariff status
+
+### 📱 Modern Flutter UI
+- Clean & responsive  
+- Smooth performance on both Android and iOS
+
+---
+
+## 🧰 Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| Flutter | Cross-platform development |
+| Dart | Core language |
+| REST API | Product & tariff data |
+| Affiliate APIs | Redirection & tracking |
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/american-made-saving.git
+cd american-made-saving
+flutter pub get
+flutter run
