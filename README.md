@@ -42,10 +42,3 @@ American Made Saving helps users find authentic US-made products while highlight
 
 ---
 
-## 📦 Installation
-
-```bash
-git clone https://github.com/yourusername/american-made-saving.git
-cd american-made-saving
-flutter pub get
-flutter run
