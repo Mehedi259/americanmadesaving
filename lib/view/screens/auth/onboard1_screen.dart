@@ -5,7 +5,7 @@ import '../../widgets/button.dart';
 
 class Onboard1Screen extends StatelessWidget {
   const Onboard1Screen({super.key});
-
+// ignore: sized_box_for_whitespace
   @override
   Widget build(BuildContext context) {
     return Scaffold(
